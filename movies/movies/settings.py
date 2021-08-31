@@ -27,8 +27,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', True)
 
 ALLOWED_HOSTS = [
-    'movieapi-prod.herokuapp.com', 
-    'movieapi-staging.herokuapp.com', 
+    'http://movieapi-prod.herokuapp.com', 
+    'http://movieapi-staging.herokuapp.com', 
     ]
 
 
