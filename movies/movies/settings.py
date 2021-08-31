@@ -33,8 +33,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'secret_key')
 DEBUG = os.environ.get('DEBUG', True)
 
 ALLOWED_HOSTS = [
-    'http://movieapi-prod.herokuapp.com', 
-    'http://movieapi-staging.herokuapp.com', 
+    'https://movieapi-prod.herokuapp.com/', 
+    '.herokuapp.com/', 
     '127.0.0.1'
     ]
 
